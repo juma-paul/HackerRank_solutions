@@ -12,3 +12,15 @@ def leap_year(year) -> bool:
     leap = False
 
   return leap
+
+def main():
+  year = int(input("Enter a year, to determine if it's a leap year or not: "))
+  res = leap_year(year)
+  if res == True:
+    print(f"{year} is a leap year.")
+  else:
+    print(f"{year} is NOT a leap year.")
+
+if __name__ == "__main__":
+  main()
+    
