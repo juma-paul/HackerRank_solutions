@@ -8,7 +8,7 @@ def is_weird(n):
     Returns:
         bool: True if it is Weird, False otherwise.
     """
-    
+
     if n % 2 != 0:
         return True
     elif 2 <= n <= 5:
@@ -25,8 +25,12 @@ def get_input():
     Returns:
         int: The integer entered by the user.
     """
-
-    return int(input('\nPlease enter an integer: '))
+    
+    while True:
+        try:
+            return int(input('\nPlease enter an integer: '))
+        except ValueError:
+            print('Invalid input, please enter a valid integer.')
 
 
 def main():
