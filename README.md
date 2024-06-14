@@ -9,7 +9,7 @@ The repository is organized into directories for different sets of questions fro
 - `python/`
   - `introduction/`
     - Contains questions from the "Introduction" subdomain.
-    - README.md with links to question for each python file.
+    - README.md with links to question for each python file(question and link have similar names).
 
 Each question will have a link to the original question on [HackerRank's website](https://www.hackerrank.com/).
 
