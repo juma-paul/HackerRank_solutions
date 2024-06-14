@@ -1,1 +1,2 @@
-### Qtn 1: [Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world/problem?isFullScreen=true)
+### Qtn 1: <a href="https://www.hackerrank.com/challenges/py-hello-world/problem?isFullScreen=true" target="_blank">Say "Hello, World!" With Python</a>
+
