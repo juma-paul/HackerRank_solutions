@@ -10,3 +10,7 @@
 ### Qtn 4: [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)
 
 ### Qtn 5: [Loops](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true)
+
+### Qtn 6: [Print Function](https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true)
+
+
