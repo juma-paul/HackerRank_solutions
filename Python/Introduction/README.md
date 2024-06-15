@@ -1,5 +1,4 @@
 ## Click any of the Links below to read the problem description from [HackerRank](https://www.hackerrank.com/)
-<hr>
 
 ### Qtn 1: [Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world/problem?isFullScreen=true)
 
@@ -13,4 +12,4 @@
 
 ### Qtn 6: [Print Function](https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true)
 
-
+### Qtn 7: [Write a function](https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true)
