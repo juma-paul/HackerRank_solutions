@@ -8,3 +8,5 @@
 ### Qtn 3: [Python: Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true)
 
 ### Qtn 4: [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)
+
+### Qtn 5: [Loops](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true)
