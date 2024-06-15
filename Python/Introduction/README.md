@@ -6,3 +6,5 @@
 ### Qtn 2: [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true)
 
 ### Qtn 3: [Python: Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true)
+
+### Qtn 4: [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)
