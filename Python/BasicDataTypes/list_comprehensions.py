@@ -2,11 +2,11 @@ def possible_cordinates(x, y, z, n):
     """
     A function to print all possible coordinates on a 3D grid
 
-    params:
-        x(int) - first cuboid dimension 
-        y(int) - second cuboid dimension 
-        z(int) - third cuboid dimension 
-        n(int) - integer to ensure i + j + k != n
+   Args:
+        x (int): First cuboid dimension 
+        y (int): Second cuboid dimension 
+        z (int): Third cuboid dimension 
+        n (int): Integer to ensure i + j + k != n
     """
     
     cuboid = [[i, j, k] for i in range(x + 1) for j in range(y + 1) for k in range(z + 1) if (i + j + k) != n]
@@ -14,7 +14,7 @@ def possible_cordinates(x, y, z, n):
 
 def main():
     """
-    A main method for testing the function possiblecordinates()
+    A main method for testing the function possible_cordinates()
     """
 
     print("\nPlease enter four integers to print dimensions of the cuboid: ")
