@@ -5,3 +5,5 @@
 ### Qtn 2: [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true)
 
 ### Qtn 3: [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true)
+
+### Qtn 4: [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true)
