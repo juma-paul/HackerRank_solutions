@@ -21,9 +21,20 @@ def main():
     '''
     Main function to execute logic of runner_up()
     '''
-
-    n = int(input("\nEnter the number of scores: "))
-    arr = list(map(int, input("\nEnter the elements separated by space: ").split())) # prompt for array, split by space, map to integers
+    
+    while True:
+        try:
+            n = int(input("\nEnter the number of scores: "))
+            if n <= 0:
+                raise ValueError("The number of scores must be a positive integer.")
+            
+            arr = list(map(int, input("\nEnter the elements separated by space: ").split()))
+            if len(arr) != n:
+                raise ValueError(f"You must enter exactly {n} scores.")
+            
+            break 
+        except ValueError as e:
+            print(f"Error: {e}. Please try again.")
 
     res = runner_up(n, arr)
     print(res)
