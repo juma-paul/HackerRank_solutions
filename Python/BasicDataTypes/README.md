@@ -7,3 +7,6 @@
 ### Qtn 3: [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true)
 
 ### Qtn 4: [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true)
+
+### Qtn 5: [Lists](https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true)
+
