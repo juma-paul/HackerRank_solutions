@@ -10,3 +10,7 @@
 
 ### Qtn 5: [Lists](https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true)
 
+### Qtn 6: [Tuples](https://www.hackerrank.com/challenges/python-tuples/problem?isFullScreen=true)
+
+
+
