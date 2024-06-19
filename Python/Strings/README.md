@@ -7,3 +7,5 @@
 ### Qtn 3: [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name/problem?isFullScreen=true)
 
 ### Qtn 4: [Mutations](https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true)
+
+### Qtn 5: [Find a string](https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true)
