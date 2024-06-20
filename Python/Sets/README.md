@@ -3,3 +3,5 @@
 ### Qtn 1: [Introduction to Sets](https://www.hackerrank.com/challenges/py-introduction-to-sets/problem?isFullScreen=true)
 
 ### Qtn 2: [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=true)
+
+### Qtn 3: [No Idea!](https://www.hackerrank.com/challenges/no-idea/problem?isFullScreen=true)
