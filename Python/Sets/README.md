@@ -7,3 +7,5 @@
 ### Qtn 3: [No Idea!](https://www.hackerrank.com/challenges/no-idea/problem?isFullScreen=true)
 
 ### Qtn 4: [Set .add()](https://www.hackerrank.com/challenges/py-set-add/problem?isFullScreen=true)
+
+### Qtn 5: [Set .discard(), .remove() & .pop()](https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem?isFullScreen=true)
