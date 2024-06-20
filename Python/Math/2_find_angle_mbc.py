@@ -11,7 +11,7 @@ def angle_of_triangle(AB: int, BC: int) -> int:
     Returns:
         int: The angle MBC in degrees.
     """
-    
+
     angle_MBC = math.atan2(AB, BC)
     MBC = round(math.degrees(angle_MBC))
 
@@ -26,7 +26,7 @@ def main():
     adj = int(input(f'\nEnter length of adjacent side of triangle: '))
 
     res = angle_of_triangle(opp, adj)
-    print(f'\n<MBC = {res}°\n')
+    print(f'\n<MBC = {res}{chr(176)}\n')
 
 if __name__ == '__main__':
     main()
