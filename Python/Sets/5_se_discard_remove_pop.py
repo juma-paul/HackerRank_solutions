@@ -31,7 +31,7 @@ def main():
     s = set(map(int, input(f'\nEnter {n} space-separated integers into set s: ').split()))
     N = int(input(f'\nHow many commands would you like to execute on set s? '))
 
-    res = sum_set(N,s)
+    res = sum_set(N, s)
     print(res)
 
 if __name__ == '__main__':
