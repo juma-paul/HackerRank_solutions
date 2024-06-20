@@ -5,3 +5,5 @@
 ### Qtn 2: [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=true)
 
 ### Qtn 3: [No Idea!](https://www.hackerrank.com/challenges/no-idea/problem?isFullScreen=true)
+
+### Qtn 4: [Set .add()](https://www.hackerrank.com/challenges/py-set-add/problem?isFullScreen=true)
