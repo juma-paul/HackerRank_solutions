@@ -5,7 +5,7 @@ def main():
     Create k possible  permutations of a given string S.
     """
 
-    S, k = input("Eneter space-separated string number of permutations needed: ").split()
+    S, k = input("Enter a string S and an integer k separated by space: ").split()
     S = S.upper()
     k = int(k)
 
