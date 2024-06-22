@@ -4,9 +4,9 @@ def main():
     """
     Create k possible  permutations of a given string S.
     """
-    
-    S, k = input("Eneter space-separated string number of permutations needed: ").split()
 
+    S, k = input("Eneter space-separated string number of permutations needed: ").split()
+    S = S.upper()
     k = int(k)
 
     permut_S = permutations(sorted(S), k)
