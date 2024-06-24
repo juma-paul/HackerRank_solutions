@@ -7,3 +7,5 @@
 ### Qtn 3: [itertools.combinations()](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)
 
 ### Qtn 4: [itertools.combinations_with_replacement()](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem?isFullScreen=true)
+
+### Qtn 5: [Compress the String!](https://www.hackerrank.com/challenges/compress-the-string/problem?isFullScreen=true)
