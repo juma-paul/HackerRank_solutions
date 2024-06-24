@@ -6,4 +6,4 @@
 
 ### Qtn 3: [itertools.combinations()](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)
 
-### Qtn 4: [ertoolsitertools.combinations_with_replacement()](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem?isFullScreen=true)
+### Qtn 4: [Itertoolsitertools.combinations_with_replacement()](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem?isFullScreen=true)
