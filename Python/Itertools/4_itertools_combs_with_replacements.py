@@ -1,29 +1,38 @@
 from itertools import combinations_with_replacement
 
-def print_combinations_with_replacement(s, r):
+def print_combinations_with_replacement(S: str, k: int) -> None:
     """
-    Generates and prints all possible combinations of the characters in a string 's' of length 'r' with replacement 
-    in lexicographically sorted order.
-    """
-    # Generate combinations with replacement
-    combinations = combinations_with_replacement(s, r)
+    Prints all possible size k combinations of the characters in string S 
+    with replacement, sorted in lexicographic order.
     
-    # Print each combination
-    for combo in combinations:
-        print(''.join(combo))
+    Args:
+        S (str): The input string from which combinations are generated.
+        k (int): The size of each combination.
+    
+    Returns:
+        None
+    """
+    
+    combs_with_replacement = combinations_with_replacement(sorted(S), k)
 
-if __name__ == "__main__":
-    try:
-        # Read input
-        user_input = input("Enter a string S and an integer k separated by space: ").strip()
-        s, r = user_input.split()
-        r = int(r)
-        
-        # Ensure the string is sorted
-        s = ''.join(sorted(s))
-        
-        # Print combinations
-        print_combinations_with_replacement(s, r)
+    for item in combs_with_replacement:
+        print(''.join(item))
     
+
+def main():
+    """
+    Reads user input, processes it, and prints size k combinations with replacement.
+    """
+
+    try:
+        user_input = input("Enter a string S and an integer k separated by space: ").strip()
+        S, k = user_input.split()
+        S = S.upper()
+        k = int(k)
+        
+        print_combinations_with_replacement(S, k)
     except ValueError:
         print("Invalid input. Please enter a string and an integer separated by space.")
+
+if __name__ == "__main__":
+    main()
