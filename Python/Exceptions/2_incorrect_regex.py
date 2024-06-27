@@ -21,3 +21,21 @@ def is_valid_regex(pattern: str) -> bool:
         return True
     except re.error:
         return False
+
+def main():
+    """
+    Main function to read input and print whether each regex pattern is valid or not.
+    """
+    
+    T = int(input('\nHow many test cases would you like to enter? '))
+    
+    res = []
+    for test in range(T):
+        S = input(f'Enter test case {test + 1}: ')
+        res.append(is_valid_regex(S))
+    
+    for items in res:
+        print(f'\n{items}')
+
+if __name__ == "__main__":
+    main()
