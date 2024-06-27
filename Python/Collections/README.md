@@ -7,3 +7,5 @@
 ### Qtn 3: [Collections.namedtuple()](https://www.hackerrank.com/challenges/py-collections-namedtuple/problem?isFullScreen=true)
 
 ### Qtn 4: [Collections.OrderedDict()](https://www.hackerrank.com/challenges/py-collections-ordereddict/problem?isFullScreen=true)
+
+### Qtn 5: [Word Order](https://www.hackerrank.com/challenges/word-order/problem?isFullScreen=true)
