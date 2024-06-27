@@ -5,3 +5,5 @@
 ### Qtn 2: [DefaultDict Tutorial](https://www.hackerrank.com/challenges/defaultdict-tutorial/problem?isFullScreen=true)
 
 ### Qtn 3: [Collections.namedtuple()](https://www.hackerrank.com/challenges/py-collections-namedtuple/problem?isFullScreen=true)
+
+### Qtn 4: [Collections.OrderedDict()](https://www.hackerrank.com/challenges/py-collections-ordereddict/problem?isFullScreen=true)
