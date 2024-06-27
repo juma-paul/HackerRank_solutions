@@ -1,6 +1,6 @@
 def main():
     """
-    Receive inputs, do integer divisiona and appropriately handle exceptions that may occur.
+    Receive inputs, perform integer division and appropriately handle exceptions that may likely occur.
     """
 
     N = int(input(f'\nEnter the number of pairs: '))
