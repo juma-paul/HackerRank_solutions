@@ -32,8 +32,20 @@ class Complex:
         imag = 0
         return Complex(real, imag)
     
-    def __str__(self) -> str:
-        pass
+    def __str__(self):
+        if self.imaginary == 0:
+            result = f"{self.real:.2f}+0.00i"
+        elif self.real == 0:
+            if self.imaginary >= 0:
+                result = f"0.00+{self.imaginary:.2f}i"
+            else:
+                result = f"0.00-{abs(self.imaginary):.2f}i"
+        elif self.imaginary > 0:
+            result = f"{self.real:.2f}+{self.imaginary:.2f}i"
+        else:
+            result = f"{self.real:.2f}-{abs(self.imaginary):.2f}i"
+        return result
+
 
 def main():
     pass
