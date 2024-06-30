@@ -48,7 +48,12 @@ class Complex:
 
 
 def main():
-    pass
+    c = map(float, input("\nEnter the real and imaginary part of the first complex number separated by a space: ").split())
+    d = map(float, input("\nEnter the real and imaginary part of the second complex number separated by a space: ").split())
+    x = Complex(*c)
+    y = Complex(*d)
+    print(*map(str, [x + y, x - y, x * y, x / y, x.mod(), y.mod()]), sep='\n')
+
 
 if __name__ == '__main__':
     main()
