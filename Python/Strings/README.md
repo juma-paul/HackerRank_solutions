@@ -9,3 +9,5 @@
 ### Qtn 4: [Mutations](https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true)
 
 ### Qtn 5: [Find a string](https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true)
+
+### Qtn 6: [String Validators](https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true)
