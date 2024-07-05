@@ -11,3 +11,5 @@
 ### Qtn 5: [Find a string](https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true)
 
 ### Qtn 6: [String Validators](https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true)
+
+### Qtn 7: [Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem?isFullScreen=true)
