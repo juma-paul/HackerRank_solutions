@@ -4,7 +4,7 @@ def main():
     The thickness must be an odd number input by the user.
     """
 
-    thickness = int(input("Enter an odd number for thickness: ")) 
+    thickness = int(input("\nEnter an odd number for thickness: ")) 
     c = 'H'
 
     # Top Cone
