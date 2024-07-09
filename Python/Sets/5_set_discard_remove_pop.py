@@ -1,38 +1,38 @@
 from typing import Set
 
-def sum_set(N: int, s: Set[int]) -> int:
+def sum_set(num_commands: int, set_s: Set[int]) -> int:
     """
-    Print sum of the remaining elements of set s after executing N commands.
+    Print sum of the remaining elements of set_s after executing num_commands.
 
     Args:
-        N (int): The number of commands to execute on set s.
-        s (Set[int]): The set to execute the commands on.
+        num_commands (int): The number of commands to execute on set_s.
+        set_s (Set[int]): The set to execute the commands on.
 
     Returns:
-        int: The sum of remaining elements of set s.
+        int: The sum of remaining elements of set_s.
     """
 
-    for i in range(N):
-        command = input(f'\nCommand {i + 1} of {N}: ').split()
+    for i in range(num_commands):
+        command = input(f'\nCommand {i + 1} of {num_commands}: ').split()
         if command[0] == 'pop':
-            s.pop()
+            set_s.pop()
         elif command[0] == 'remove':
-            s.remove(int(command[1]))
+            set_s.remove(int(command[1]))
         elif command[0] == 'discard':
-            s.discard(int(command[1]))
-    return sum(s)
+            set_s.discard(int(command[1]))
+    return sum(set_s)
 
 def main():
     """
     Main function to test functionality of sum_set().
     """
 
-    n = int(input(f'\nHow many elements will be in set s? '))
-    s = set(map(int, input(f'\nEnter {n} space-separated integers into set s: ').split()))
-    N = int(input(f'\nHow many commands would you like to execute on set s? '))
+    num_elements = int(input(f'\nHow many elements will be in set s? '))
+    set_s = set(map(int, input(f'\nEnter {num_elements} space-separated integers into the set_s: ').split()))
+    num_commands = int(input(f'\nHow many commands would you like to execute on set_s? '))
 
-    res = sum_set(N, s)
-    print(res)
+    result = sum_set(num_commands, set_s)
+    print(result)
 
 if __name__ == '__main__':
     main()
